@@ -5,6 +5,8 @@
 //  Created by matuura on 11/06/09.
 //  Copyright 2011 __MyCompanyName__. All rights reserved.
 //
+// 2015/1/16 ....
+
 
 #include <iostream>
 #include <boost/shared_ptr.hpp>
@@ -13,6 +15,7 @@
 
 #include <algorithm>
 #include <vector>
+#include <functional>
 
 #if 0
 // 関数型を明示
@@ -97,6 +100,7 @@ public:
 
 int main (int argc, const char * argv[])
 {
+     std::function<void(int)> f;
     A a;
     std::cout << a.x_ << "\n";
     
