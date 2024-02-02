@@ -14,6 +14,9 @@
 #include <algorithm>
 #include <vector>
 
+// 松浦の修正テスト
+
+
 #if 0
 // 関数型を明示
 function<int (int,int)> mul = [](int x, int y)->int {return x*y;};
