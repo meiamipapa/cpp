@@ -14,7 +14,7 @@
 #include <algorithm>
 #include <vector>
 
-// 松浦の修正テスト
+// 松浦の修正テスト：レビューコメントあり、コメント追加したよ
 
 
 #if 0
