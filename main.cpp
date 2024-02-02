@@ -21,6 +21,9 @@
 // VSCodeでの修正：レビュー対応した
 
 
+// VSCodeでの修正２
+
+
 #if 0
 // 関数型を明示
 function<int (int,int)> mul = [](int x, int y)->int {return x*y;};
